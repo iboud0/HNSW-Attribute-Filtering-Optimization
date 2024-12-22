@@ -1,3 +1,10 @@
 # ninja log v5
-3	316	7565899970270046	CMakeFiles/hnsw_optimization.dir/src/main.cpp.obj	1975ca2336b6326f
 321	419	7565899971238506	hnsw_optimization.exe	f1d2405ab593cd55
+3	316	7565899970270046	CMakeFiles/hnsw_optimization.dir/src/main.cpp.obj	1975ca2336b6326f
+3	148	7565924132545477	build.ninja	bd29459da971fd06
+26	1300	7565924145810971	CMakeFiles/hnsw_optimization.dir/src/main.cpp.obj	1975ca2336b6326f
+1302	1422	7565924146828001	hnsw_optimization.exe	f1d2405ab593cd55
+29	2485	7565924157565582	CMakeFiles/example_filter.dir/src/example_filter.cpp.obj	20176198309e9b9
+2485	2617	7565924158916586	example_filter.exe	a78f1b3886afc882
+15	2267	7565925421795351	CMakeFiles/example_filter.dir/src/example_filter.cpp.obj	20176198309e9b9
+2268	2403	7565925423113987	example_filter.exe	a78f1b3886afc882
