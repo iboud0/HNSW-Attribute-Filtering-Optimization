@@ -20,31 +20,65 @@ This repository implements an optimized multi-attribute filtering mechanism for 
 ## Setup
 
 ### Prerequisites
-- **C++ Compiler** (e.g., GCC, Clang)
-- **CMake** (for building HNSWLib and project dependencies)
-- **CRoaring Library** ([GitHub Repository](https://github.com/RoaringBitmap/CRoaring))
+
+- **C++ Compiler**: GCC, Clang, or equivalent supporting C++17.
+- **CMake**: For configuring and building the project.
+- **Ninja** (optional): For faster builds (recommended).
 
 ### Installation
-1. Clone the repository:
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/HNSW-Attribute-Filtering-Optimization.git
    ```
-
-2. Navigate to the project directory:
+   
+2. **Navigate to the project directory**:
    ```bash
    cd HNSW-Attribute-Filtering-Optimization
    ```
 
-3. Build the project:
+3. **Create and navigate to the build directory**:
    ```bash
    mkdir build && cd build
-   cmake ..
-   make
    ```
 
----
+4. **Build the project**:
+   ```bash
+   cmake .. -G "Ninja" # Use Ninja for faster builds, or replace with "Unix Makefiles".
+   ninja               # Or use 'make' if "Unix Makefiles" was selected.
+   ```
 
-### Usage
+## Usage
+
+### Running Executables
+After building, the executables will be available in the `build` directory. You can run them as follows:
+
+1. **Run the Bitset Filtering Example**:
+   ```bash
+   ./bitset_filter
+   ```
+
+2. **Run the Linear Filtering Example**:
+   ```bash
+   ./linear_filter
+   ```
+
+3. **Run the Roaring Bitmap Filtering Example**:
+   ```bash
+   ./roaring_filter
+   ```
+
+4. **Run the Test Roaring Bitmap**:
+   ```bash
+   ./test_roaring
+   ```
+
+### Output Files
+Each filtering example writes its results to a corresponding text file in the `build` directory:
+
+- `bitset_filter_results.txt`
+- `linear_filter_results.txt`
+- `roaring_filter_results.txt`
 
 #### Running Benchmarks
 To evaluate the performance improvements of the optimized filtering:
