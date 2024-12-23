@@ -3,6 +3,7 @@ C:/Code/HNSW-Attribute-Filtering-Optimization/build/CMakeFiles/bitset_filter.dir
 C:/Code/HNSW-Attribute-Filtering-Optimization/build/CMakeFiles/linear_filter.dir
 C:/Code/HNSW-Attribute-Filtering-Optimization/build/CMakeFiles/hnsw_optimization.dir
 C:/Code/HNSW-Attribute-Filtering-Optimization/build/CMakeFiles/test_roaring.dir
+C:/Code/HNSW-Attribute-Filtering-Optimization/build/CMakeFiles/roaring_filter.dir
 C:/Code/HNSW-Attribute-Filtering-Optimization/build/CMakeFiles/package.dir
 C:/Code/HNSW-Attribute-Filtering-Optimization/build/CMakeFiles/package_source.dir
 C:/Code/HNSW-Attribute-Filtering-Optimization/build/CMakeFiles/edit_cache.dir

@@ -56,8 +56,6 @@ build CMakeFiles/example_filter.dir/src/example_filter.cpp.obj: CXX_COMPILER__ex
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = CMakeFiles\example_filter.dir
   OBJECT_FILE_DIR = CMakeFiles\example_filter.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\example_filter.dir\
-  TARGET_PDB = example_filter.pdb
 
 build CMakeFiles/example_filter.dir/src/roaring.c.obj: C_COMPILER__example_filter_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/src/roaring.c || cmake_object_order_depends_target_example_filter
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -66,8 +64,6 @@ build CMakeFiles/example_filter.dir/src/roaring.c.obj: C_COMPILER__example_filte
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = CMakeFiles\example_filter.dir
   OBJECT_FILE_DIR = CMakeFiles\example_filter.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\example_filter.dir\
-  TARGET_PDB = example_filter.pdb
 
 
 # =============================================================================
@@ -83,10 +79,9 @@ build example_filter.exe: CXX_EXECUTABLE_LINKER__example_filter_Release CMakeFil
   OBJECT_DIR = CMakeFiles\example_filter.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\example_filter.dir\
   TARGET_FILE = example_filter.exe
   TARGET_IMPLIB = libexample_filter.dll.a
-  TARGET_PDB = example_filter.pdb
+  TARGET_PDB = example_filter.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target bitset_filter
@@ -104,8 +99,6 @@ build CMakeFiles/bitset_filter.dir/src/bitset_filter.cpp.obj: CXX_COMPILER__bits
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = CMakeFiles\bitset_filter.dir
   OBJECT_FILE_DIR = CMakeFiles\bitset_filter.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\bitset_filter.dir\
-  TARGET_PDB = bitset_filter.pdb
 
 build CMakeFiles/bitset_filter.dir/src/roaring.c.obj: C_COMPILER__bitset_filter_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/src/roaring.c || cmake_object_order_depends_target_bitset_filter
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -114,8 +107,6 @@ build CMakeFiles/bitset_filter.dir/src/roaring.c.obj: C_COMPILER__bitset_filter_
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = CMakeFiles\bitset_filter.dir
   OBJECT_FILE_DIR = CMakeFiles\bitset_filter.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\bitset_filter.dir\
-  TARGET_PDB = bitset_filter.pdb
 
 
 # =============================================================================
@@ -131,10 +122,9 @@ build bitset_filter.exe: CXX_EXECUTABLE_LINKER__bitset_filter_Release CMakeFiles
   OBJECT_DIR = CMakeFiles\bitset_filter.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\bitset_filter.dir\
   TARGET_FILE = bitset_filter.exe
   TARGET_IMPLIB = libbitset_filter.dll.a
-  TARGET_PDB = bitset_filter.pdb
+  TARGET_PDB = bitset_filter.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target linear_filter
@@ -152,8 +142,6 @@ build CMakeFiles/linear_filter.dir/src/linear_filter.cpp.obj: CXX_COMPILER__line
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = CMakeFiles\linear_filter.dir
   OBJECT_FILE_DIR = CMakeFiles\linear_filter.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\linear_filter.dir\
-  TARGET_PDB = linear_filter.pdb
 
 build CMakeFiles/linear_filter.dir/src/roaring.c.obj: C_COMPILER__linear_filter_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/src/roaring.c || cmake_object_order_depends_target_linear_filter
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -162,8 +150,6 @@ build CMakeFiles/linear_filter.dir/src/roaring.c.obj: C_COMPILER__linear_filter_
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = CMakeFiles\linear_filter.dir
   OBJECT_FILE_DIR = CMakeFiles\linear_filter.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\linear_filter.dir\
-  TARGET_PDB = linear_filter.pdb
 
 
 # =============================================================================
@@ -179,10 +165,9 @@ build linear_filter.exe: CXX_EXECUTABLE_LINKER__linear_filter_Release CMakeFiles
   OBJECT_DIR = CMakeFiles\linear_filter.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\linear_filter.dir\
   TARGET_FILE = linear_filter.exe
   TARGET_IMPLIB = liblinear_filter.dll.a
-  TARGET_PDB = linear_filter.pdb
+  TARGET_PDB = linear_filter.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target hnsw_optimization
@@ -200,8 +185,6 @@ build CMakeFiles/hnsw_optimization.dir/src/main.cpp.obj: CXX_COMPILER__hnsw_opti
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = CMakeFiles\hnsw_optimization.dir
   OBJECT_FILE_DIR = CMakeFiles\hnsw_optimization.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\hnsw_optimization.dir\
-  TARGET_PDB = hnsw_optimization.pdb
 
 build CMakeFiles/hnsw_optimization.dir/src/roaring.c.obj: C_COMPILER__hnsw_optimization_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/src/roaring.c || cmake_object_order_depends_target_hnsw_optimization
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -210,8 +193,6 @@ build CMakeFiles/hnsw_optimization.dir/src/roaring.c.obj: C_COMPILER__hnsw_optim
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = CMakeFiles\hnsw_optimization.dir
   OBJECT_FILE_DIR = CMakeFiles\hnsw_optimization.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\hnsw_optimization.dir\
-  TARGET_PDB = hnsw_optimization.pdb
 
 
 # =============================================================================
@@ -227,10 +208,9 @@ build hnsw_optimization.exe: CXX_EXECUTABLE_LINKER__hnsw_optimization_Release CM
   OBJECT_DIR = CMakeFiles\hnsw_optimization.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\hnsw_optimization.dir\
   TARGET_FILE = hnsw_optimization.exe
   TARGET_IMPLIB = libhnsw_optimization.dll.a
-  TARGET_PDB = hnsw_optimization.pdb
+  TARGET_PDB = hnsw_optimization.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target test_roaring
@@ -248,8 +228,6 @@ build CMakeFiles/test_roaring.dir/src/test_roaring.cpp.obj: CXX_COMPILER__test_r
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = CMakeFiles\test_roaring.dir
   OBJECT_FILE_DIR = CMakeFiles\test_roaring.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\test_roaring.dir\
-  TARGET_PDB = test_roaring.pdb
 
 build CMakeFiles/test_roaring.dir/src/roaring.c.obj: C_COMPILER__test_roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/src/roaring.c || cmake_object_order_depends_target_test_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -258,8 +236,6 @@ build CMakeFiles/test_roaring.dir/src/roaring.c.obj: C_COMPILER__test_roaring_un
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = CMakeFiles\test_roaring.dir
   OBJECT_FILE_DIR = CMakeFiles\test_roaring.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\test_roaring.dir\
-  TARGET_PDB = test_roaring.pdb
 
 
 # =============================================================================
@@ -275,10 +251,52 @@ build test_roaring.exe: CXX_EXECUTABLE_LINKER__test_roaring_Release CMakeFiles/t
   OBJECT_DIR = CMakeFiles\test_roaring.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\test_roaring.dir\
   TARGET_FILE = test_roaring.exe
   TARGET_IMPLIB = libtest_roaring.dll.a
-  TARGET_PDB = test_roaring.pdb
+  TARGET_PDB = test_roaring.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target roaring_filter
+
+
+#############################################
+# Order-only phony target for roaring_filter
+
+build cmake_object_order_depends_target_roaring_filter: phony || cmake_object_order_depends_target_roaring
+
+build CMakeFiles/roaring_filter.dir/src/roaring_bitmaps_filter.cpp.obj: CXX_COMPILER__roaring_filter_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/src/roaring_bitmaps_filter.cpp || cmake_object_order_depends_target_roaring_filter
+  DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
+  DEP_FILE = CMakeFiles\roaring_filter.dir\src\roaring_bitmaps_filter.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++17
+  INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
+  OBJECT_DIR = CMakeFiles\roaring_filter.dir
+  OBJECT_FILE_DIR = CMakeFiles\roaring_filter.dir\src
+
+build CMakeFiles/roaring_filter.dir/src/roaring.c.obj: C_COMPILER__roaring_filter_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/src/roaring.c || cmake_object_order_depends_target_roaring_filter
+  DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
+  DEP_FILE = CMakeFiles\roaring_filter.dir\src\roaring.c.obj.d
+  FLAGS = -O3 -DNDEBUG
+  INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
+  OBJECT_DIR = CMakeFiles\roaring_filter.dir
+  OBJECT_FILE_DIR = CMakeFiles\roaring_filter.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target roaring_filter
+
+
+#############################################
+# Link the executable roaring_filter.exe
+
+build roaring_filter.exe: CXX_EXECUTABLE_LINKER__roaring_filter_Release CMakeFiles/roaring_filter.dir/src/roaring_bitmaps_filter.cpp.obj CMakeFiles/roaring_filter.dir/src/roaring.c.obj | _deps/roaring-build/src/libroaring.a || _deps/roaring-build/src/libroaring.a
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = _deps/roaring-build/src/libroaring.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\roaring_filter.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = roaring_filter.exe
+  TARGET_IMPLIB = libroaring_filter.dll.a
+  TARGET_PDB = roaring_filter.exe.dbg
 
 
 #############################################
@@ -1077,8 +1095,6 @@ build _deps/cmocka-build/src/CMakeFiles/cmocka.dir/cmocka.c.obj: C_COMPILER__cmo
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-build/src -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/src -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-build -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\cmocka-build\src\CMakeFiles\cmocka.dir
   OBJECT_FILE_DIR = _deps\cmocka-build\src\CMakeFiles\cmocka.dir
-  TARGET_COMPILE_PDB = _deps\cmocka-build\src\CMakeFiles\cmocka.dir\
-  TARGET_PDB = _deps\cmocka-build\src\cmocka.pdb
 
 
 # =============================================================================
@@ -1096,10 +1112,9 @@ build _deps/cmocka-build/src/cmocka.dll _deps/cmocka-build/src/libcmocka.dll.a: 
   POST_BUILD = cd .
   PRE_LINK = cd .
   RESTAT = 1
-  TARGET_COMPILE_PDB = _deps\cmocka-build\src\CMakeFiles\cmocka.dir\
   TARGET_FILE = _deps\cmocka-build\src\cmocka.dll
   TARGET_IMPLIB = _deps\cmocka-build\src\libcmocka.dll.a
-  TARGET_PDB = _deps\cmocka-build\src\cmocka.pdb
+  TARGET_PDB = cmocka.dll.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target cmocka-static
@@ -1117,8 +1132,6 @@ build _deps/cmocka-build/src/CMakeFiles/cmocka-static.dir/cmocka.c.obj: C_COMPIL
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-build/src -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/src -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-build -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\cmocka-build\src\CMakeFiles\cmocka-static.dir
   OBJECT_FILE_DIR = _deps\cmocka-build\src\CMakeFiles\cmocka-static.dir
-  TARGET_COMPILE_PDB = _deps\cmocka-build\src\CMakeFiles\cmocka-static.dir\cmocka-static.pdb
-  TARGET_PDB = _deps\cmocka-build\src\libcmocka-static.pdb
 
 
 # =============================================================================
@@ -1133,9 +1146,8 @@ build _deps/cmocka-build/src/libcmocka-static.a: C_STATIC_LIBRARY_LINKER__cmocka
   OBJECT_DIR = _deps\cmocka-build\src\CMakeFiles\cmocka-static.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\cmocka-build\src\CMakeFiles\cmocka-static.dir\cmocka-static.pdb
   TARGET_FILE = _deps\cmocka-build\src\libcmocka-static.a
-  TARGET_PDB = _deps\cmocka-build\src\libcmocka-static.pdb
+  TARGET_PDB = cmocka-static.a.dbg
 
 
 #############################################
@@ -1341,8 +1353,6 @@ build _deps/cmocka-build/example/CMakeFiles/simple_test.dir/simple_test.c.obj: C
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-build/example -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/example -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\cmocka-build\example\CMakeFiles\simple_test.dir
   OBJECT_FILE_DIR = _deps\cmocka-build\example\CMakeFiles\simple_test.dir
-  TARGET_COMPILE_PDB = _deps\cmocka-build\example\CMakeFiles\simple_test.dir\
-  TARGET_PDB = _deps\cmocka-build\example\simple_test.pdb
 
 
 # =============================================================================
@@ -1358,10 +1368,9 @@ build _deps/cmocka-build/example/simple_test.exe: C_EXECUTABLE_LINKER__simple_te
   OBJECT_DIR = _deps\cmocka-build\example\CMakeFiles\simple_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\cmocka-build\example\CMakeFiles\simple_test.dir\
   TARGET_FILE = _deps\cmocka-build\example\simple_test.exe
   TARGET_IMPLIB = _deps\cmocka-build\example\libsimple_test.dll.a
-  TARGET_PDB = _deps\cmocka-build\example\simple_test.pdb
+  TARGET_PDB = simple_test.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target allocate_module_test
@@ -1379,8 +1388,6 @@ build _deps/cmocka-build/example/CMakeFiles/allocate_module_test.dir/allocate_mo
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-build/example -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/example -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\cmocka-build\example\CMakeFiles\allocate_module_test.dir
   OBJECT_FILE_DIR = _deps\cmocka-build\example\CMakeFiles\allocate_module_test.dir
-  TARGET_COMPILE_PDB = _deps\cmocka-build\example\CMakeFiles\allocate_module_test.dir\
-  TARGET_PDB = _deps\cmocka-build\example\allocate_module_test.pdb
 
 build _deps/cmocka-build/example/CMakeFiles/allocate_module_test.dir/allocate_module_test.c.obj: C_COMPILER__allocate_module_test_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/example/allocate_module_test.c || cmake_object_order_depends_target_allocate_module_test
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1389,8 +1396,6 @@ build _deps/cmocka-build/example/CMakeFiles/allocate_module_test.dir/allocate_mo
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-build/example -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/example -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\cmocka-build\example\CMakeFiles\allocate_module_test.dir
   OBJECT_FILE_DIR = _deps\cmocka-build\example\CMakeFiles\allocate_module_test.dir
-  TARGET_COMPILE_PDB = _deps\cmocka-build\example\CMakeFiles\allocate_module_test.dir\
-  TARGET_PDB = _deps\cmocka-build\example\allocate_module_test.pdb
 
 
 # =============================================================================
@@ -1406,10 +1411,9 @@ build _deps/cmocka-build/example/allocate_module_test.exe: C_EXECUTABLE_LINKER__
   OBJECT_DIR = _deps\cmocka-build\example\CMakeFiles\allocate_module_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\cmocka-build\example\CMakeFiles\allocate_module_test.dir\
   TARGET_FILE = _deps\cmocka-build\example\allocate_module_test.exe
   TARGET_IMPLIB = _deps\cmocka-build\example\liballocate_module_test.dll.a
-  TARGET_PDB = _deps\cmocka-build\example\allocate_module_test.pdb
+  TARGET_PDB = allocate_module_test.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target assert_macro_test
@@ -1427,8 +1431,6 @@ build _deps/cmocka-build/example/CMakeFiles/assert_macro_test.dir/assert_macro.c
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-build/example -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/example -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\cmocka-build\example\CMakeFiles\assert_macro_test.dir
   OBJECT_FILE_DIR = _deps\cmocka-build\example\CMakeFiles\assert_macro_test.dir
-  TARGET_COMPILE_PDB = _deps\cmocka-build\example\CMakeFiles\assert_macro_test.dir\
-  TARGET_PDB = _deps\cmocka-build\example\assert_macro_test.pdb
 
 build _deps/cmocka-build/example/CMakeFiles/assert_macro_test.dir/assert_macro_test.c.obj: C_COMPILER__assert_macro_test_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/example/assert_macro_test.c || cmake_object_order_depends_target_assert_macro_test
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1437,8 +1439,6 @@ build _deps/cmocka-build/example/CMakeFiles/assert_macro_test.dir/assert_macro_t
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-build/example -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/example -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\cmocka-build\example\CMakeFiles\assert_macro_test.dir
   OBJECT_FILE_DIR = _deps\cmocka-build\example\CMakeFiles\assert_macro_test.dir
-  TARGET_COMPILE_PDB = _deps\cmocka-build\example\CMakeFiles\assert_macro_test.dir\
-  TARGET_PDB = _deps\cmocka-build\example\assert_macro_test.pdb
 
 
 # =============================================================================
@@ -1454,10 +1454,9 @@ build _deps/cmocka-build/example/assert_macro_test.exe: C_EXECUTABLE_LINKER__ass
   OBJECT_DIR = _deps\cmocka-build\example\CMakeFiles\assert_macro_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\cmocka-build\example\CMakeFiles\assert_macro_test.dir\
   TARGET_FILE = _deps\cmocka-build\example\assert_macro_test.exe
   TARGET_IMPLIB = _deps\cmocka-build\example\libassert_macro_test.dll.a
-  TARGET_PDB = _deps\cmocka-build\example\assert_macro_test.pdb
+  TARGET_PDB = assert_macro_test.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target assert_module_test
@@ -1475,8 +1474,6 @@ build _deps/cmocka-build/example/CMakeFiles/assert_module_test.dir/assert_module
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-build/example -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/example -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\cmocka-build\example\CMakeFiles\assert_module_test.dir
   OBJECT_FILE_DIR = _deps\cmocka-build\example\CMakeFiles\assert_module_test.dir
-  TARGET_COMPILE_PDB = _deps\cmocka-build\example\CMakeFiles\assert_module_test.dir\
-  TARGET_PDB = _deps\cmocka-build\example\assert_module_test.pdb
 
 build _deps/cmocka-build/example/CMakeFiles/assert_module_test.dir/assert_module_test.c.obj: C_COMPILER__assert_module_test_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/example/assert_module_test.c || cmake_object_order_depends_target_assert_module_test
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1485,8 +1482,6 @@ build _deps/cmocka-build/example/CMakeFiles/assert_module_test.dir/assert_module
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-build/example -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/example -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\cmocka-build\example\CMakeFiles\assert_module_test.dir
   OBJECT_FILE_DIR = _deps\cmocka-build\example\CMakeFiles\assert_module_test.dir
-  TARGET_COMPILE_PDB = _deps\cmocka-build\example\CMakeFiles\assert_module_test.dir\
-  TARGET_PDB = _deps\cmocka-build\example\assert_module_test.pdb
 
 
 # =============================================================================
@@ -1502,10 +1497,9 @@ build _deps/cmocka-build/example/assert_module_test.exe: C_EXECUTABLE_LINKER__as
   OBJECT_DIR = _deps\cmocka-build\example\CMakeFiles\assert_module_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\cmocka-build\example\CMakeFiles\assert_module_test.dir\
   TARGET_FILE = _deps\cmocka-build\example\assert_module_test.exe
   TARGET_IMPLIB = _deps\cmocka-build\example\libassert_module_test.dll.a
-  TARGET_PDB = _deps\cmocka-build\example\assert_module_test.pdb
+  TARGET_PDB = assert_module_test.exe.dbg
 
 
 #############################################
@@ -1617,8 +1611,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/isadetection.c.obj: C_COMPI
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/array_util.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/array_util.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1627,8 +1619,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/array_util.c.obj: C_COMPILE
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/bitset_util.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/bitset_util.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1637,8 +1627,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/bitset_util.c.obj: C_COMPIL
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/bitset.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/bitset.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1647,8 +1635,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/bitset.c.obj: C_COMPILER__r
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/array.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/containers/array.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1657,8 +1643,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/array.c.obj: C_C
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir\containers
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/bitset.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/containers/bitset.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1667,8 +1651,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/bitset.c.obj: C_
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir\containers
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/containers.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/containers/containers.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1677,8 +1659,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/containers.c.obj
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir\containers
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/convert.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/containers/convert.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1687,8 +1667,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/convert.c.obj: C
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir\containers
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/mixed_intersection.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/containers/mixed_intersection.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1697,8 +1675,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/mixed_intersecti
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir\containers
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/mixed_union.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/containers/mixed_union.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1707,8 +1683,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/mixed_union.c.ob
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir\containers
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/mixed_equal.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/containers/mixed_equal.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1717,8 +1691,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/mixed_equal.c.ob
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir\containers
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/mixed_subset.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/containers/mixed_subset.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1727,8 +1699,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/mixed_subset.c.o
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir\containers
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/mixed_negation.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/containers/mixed_negation.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1737,8 +1707,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/mixed_negation.c
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir\containers
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/mixed_xor.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/containers/mixed_xor.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1747,8 +1715,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/mixed_xor.c.obj:
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir\containers
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/mixed_andnot.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/containers/mixed_andnot.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1757,8 +1723,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/mixed_andnot.c.o
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir\containers
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/run.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/containers/run.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1767,8 +1731,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/containers/run.c.obj: C_COM
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir\containers
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/memory.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/memory.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1777,8 +1739,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/memory.c.obj: C_COMPILER__r
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/roaring.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/roaring.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1787,8 +1747,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/roaring.c.obj: C_COMPILER__
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/roaring_priority_queue.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/roaring_priority_queue.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1797,8 +1755,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/roaring_priority_queue.c.ob
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 build _deps/roaring-build/src/CMakeFiles/roaring.dir/roaring_array.c.obj: C_COMPILER__roaring_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/src/roaring_array.c || cmake_object_order_depends_target_roaring
   DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
@@ -1807,8 +1763,6 @@ build _deps/roaring-build/src/CMakeFiles/roaring.dir/roaring_array.c.obj: C_COMP
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   OBJECT_FILE_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
 
 
 # =============================================================================
@@ -1823,9 +1777,8 @@ build _deps/roaring-build/src/libroaring.a: C_STATIC_LIBRARY_LINKER__roaring_Rel
   OBJECT_DIR = _deps\roaring-build\src\CMakeFiles\roaring.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\src\CMakeFiles\roaring.dir\roaring.pdb
   TARGET_FILE = _deps\roaring-build\src\libroaring.a
-  TARGET_PDB = _deps\roaring-build\src\libroaring.pdb
+  TARGET_PDB = roaring.a.dbg
 
 
 #############################################
@@ -1937,8 +1890,6 @@ build _deps/roaring-build/benchmarks/CMakeFiles/create_benchmark.dir/create_benc
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\benchmarks\CMakeFiles\create_benchmark.dir
   OBJECT_FILE_DIR = _deps\roaring-build\benchmarks\CMakeFiles\create_benchmark.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\benchmarks\CMakeFiles\create_benchmark.dir\
-  TARGET_PDB = _deps\roaring-build\benchmarks\create_benchmark.pdb
 
 
 # =============================================================================
@@ -1954,10 +1905,9 @@ build _deps/roaring-build/benchmarks/create_benchmark.exe: C_EXECUTABLE_LINKER__
   OBJECT_DIR = _deps\roaring-build\benchmarks\CMakeFiles\create_benchmark.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\benchmarks\CMakeFiles\create_benchmark.dir\
   TARGET_FILE = _deps\roaring-build\benchmarks\create_benchmark.exe
   TARGET_IMPLIB = _deps\roaring-build\benchmarks\libcreate_benchmark.dll.a
-  TARGET_PDB = _deps\roaring-build\benchmarks\create_benchmark.pdb
+  TARGET_PDB = create_benchmark.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target adversarialunions_benchmark
@@ -1975,8 +1925,6 @@ build _deps/roaring-build/benchmarks/CMakeFiles/adversarialunions_benchmark.dir/
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\benchmarks\CMakeFiles\adversarialunions_benchmark.dir
   OBJECT_FILE_DIR = _deps\roaring-build\benchmarks\CMakeFiles\adversarialunions_benchmark.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\benchmarks\CMakeFiles\adversarialunions_benchmark.dir\
-  TARGET_PDB = _deps\roaring-build\benchmarks\adversarialunions_benchmark.pdb
 
 
 # =============================================================================
@@ -1992,10 +1940,9 @@ build _deps/roaring-build/benchmarks/adversarialunions_benchmark.exe: C_EXECUTAB
   OBJECT_DIR = _deps\roaring-build\benchmarks\CMakeFiles\adversarialunions_benchmark.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\benchmarks\CMakeFiles\adversarialunions_benchmark.dir\
   TARGET_FILE = _deps\roaring-build\benchmarks\adversarialunions_benchmark.exe
   TARGET_IMPLIB = _deps\roaring-build\benchmarks\libadversarialunions_benchmark.dll.a
-  TARGET_PDB = _deps\roaring-build\benchmarks\adversarialunions_benchmark.pdb
+  TARGET_PDB = adversarialunions_benchmark.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target bitset_container_benchmark
@@ -2013,8 +1960,6 @@ build _deps/roaring-build/benchmarks/CMakeFiles/bitset_container_benchmark.dir/b
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\benchmarks\CMakeFiles\bitset_container_benchmark.dir
   OBJECT_FILE_DIR = _deps\roaring-build\benchmarks\CMakeFiles\bitset_container_benchmark.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\benchmarks\CMakeFiles\bitset_container_benchmark.dir\
-  TARGET_PDB = _deps\roaring-build\benchmarks\bitset_container_benchmark.pdb
 
 
 # =============================================================================
@@ -2030,10 +1975,9 @@ build _deps/roaring-build/benchmarks/bitset_container_benchmark.exe: C_EXECUTABL
   OBJECT_DIR = _deps\roaring-build\benchmarks\CMakeFiles\bitset_container_benchmark.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\benchmarks\CMakeFiles\bitset_container_benchmark.dir\
   TARGET_FILE = _deps\roaring-build\benchmarks\bitset_container_benchmark.exe
   TARGET_IMPLIB = _deps\roaring-build\benchmarks\libbitset_container_benchmark.dll.a
-  TARGET_PDB = _deps\roaring-build\benchmarks\bitset_container_benchmark.pdb
+  TARGET_PDB = bitset_container_benchmark.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target array_container_benchmark
@@ -2051,8 +1995,6 @@ build _deps/roaring-build/benchmarks/CMakeFiles/array_container_benchmark.dir/ar
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\benchmarks\CMakeFiles\array_container_benchmark.dir
   OBJECT_FILE_DIR = _deps\roaring-build\benchmarks\CMakeFiles\array_container_benchmark.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\benchmarks\CMakeFiles\array_container_benchmark.dir\
-  TARGET_PDB = _deps\roaring-build\benchmarks\array_container_benchmark.pdb
 
 
 # =============================================================================
@@ -2068,10 +2010,9 @@ build _deps/roaring-build/benchmarks/array_container_benchmark.exe: C_EXECUTABLE
   OBJECT_DIR = _deps\roaring-build\benchmarks\CMakeFiles\array_container_benchmark.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\benchmarks\CMakeFiles\array_container_benchmark.dir\
   TARGET_FILE = _deps\roaring-build\benchmarks\array_container_benchmark.exe
   TARGET_IMPLIB = _deps\roaring-build\benchmarks\libarray_container_benchmark.dll.a
-  TARGET_PDB = _deps\roaring-build\benchmarks\array_container_benchmark.pdb
+  TARGET_PDB = array_container_benchmark.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target run_container_benchmark
@@ -2089,8 +2030,6 @@ build _deps/roaring-build/benchmarks/CMakeFiles/run_container_benchmark.dir/run_
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\benchmarks\CMakeFiles\run_container_benchmark.dir
   OBJECT_FILE_DIR = _deps\roaring-build\benchmarks\CMakeFiles\run_container_benchmark.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\benchmarks\CMakeFiles\run_container_benchmark.dir\
-  TARGET_PDB = _deps\roaring-build\benchmarks\run_container_benchmark.pdb
 
 
 # =============================================================================
@@ -2106,10 +2045,9 @@ build _deps/roaring-build/benchmarks/run_container_benchmark.exe: C_EXECUTABLE_L
   OBJECT_DIR = _deps\roaring-build\benchmarks\CMakeFiles\run_container_benchmark.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\benchmarks\CMakeFiles\run_container_benchmark.dir\
   TARGET_FILE = _deps\roaring-build\benchmarks\run_container_benchmark.exe
   TARGET_IMPLIB = _deps\roaring-build\benchmarks\librun_container_benchmark.dll.a
-  TARGET_PDB = _deps\roaring-build\benchmarks\run_container_benchmark.pdb
+  TARGET_PDB = run_container_benchmark.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target equals_benchmark
@@ -2127,8 +2065,6 @@ build _deps/roaring-build/benchmarks/CMakeFiles/equals_benchmark.dir/equals_benc
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\benchmarks\CMakeFiles\equals_benchmark.dir
   OBJECT_FILE_DIR = _deps\roaring-build\benchmarks\CMakeFiles\equals_benchmark.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\benchmarks\CMakeFiles\equals_benchmark.dir\
-  TARGET_PDB = _deps\roaring-build\benchmarks\equals_benchmark.pdb
 
 
 # =============================================================================
@@ -2144,10 +2080,9 @@ build _deps/roaring-build/benchmarks/equals_benchmark.exe: C_EXECUTABLE_LINKER__
   OBJECT_DIR = _deps\roaring-build\benchmarks\CMakeFiles\equals_benchmark.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\benchmarks\CMakeFiles\equals_benchmark.dir\
   TARGET_FILE = _deps\roaring-build\benchmarks\equals_benchmark.exe
   TARGET_IMPLIB = _deps\roaring-build\benchmarks\libequals_benchmark.dll.a
-  TARGET_PDB = _deps\roaring-build\benchmarks\equals_benchmark.pdb
+  TARGET_PDB = equals_benchmark.exe.dbg
 
 
 #############################################
@@ -2259,8 +2194,6 @@ build _deps/roaring-build/tests/CMakeFiles/cpp_unit.dir/cpp_unit.cpp.obj: CXX_CO
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\cpp_unit.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\cpp_unit.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\cpp_unit.dir\
-  TARGET_PDB = _deps\roaring-build\tests\cpp_unit.pdb
 
 
 # =============================================================================
@@ -2276,10 +2209,9 @@ build _deps/roaring-build/tests/cpp_unit.exe: CXX_EXECUTABLE_LINKER__cpp_unit_Re
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\cpp_unit.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\cpp_unit.dir\
   TARGET_FILE = _deps\roaring-build\tests\cpp_unit.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\libcpp_unit.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\cpp_unit.pdb
+  TARGET_PDB = cpp_unit.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target cpp_random_unit
@@ -2297,8 +2229,6 @@ build _deps/roaring-build/tests/CMakeFiles/cpp_random_unit.dir/cpp_random_unit.c
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\cpp_random_unit.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\cpp_random_unit.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\cpp_random_unit.dir\
-  TARGET_PDB = _deps\roaring-build\tests\cpp_random_unit.pdb
 
 
 # =============================================================================
@@ -2314,10 +2244,9 @@ build _deps/roaring-build/tests/cpp_random_unit.exe: CXX_EXECUTABLE_LINKER__cpp_
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\cpp_random_unit.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\cpp_random_unit.dir\
   TARGET_FILE = _deps\roaring-build\tests\cpp_random_unit.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\libcpp_random_unit.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\cpp_random_unit.pdb
+  TARGET_PDB = cpp_random_unit.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target cpp_example1
@@ -2335,8 +2264,6 @@ build _deps/roaring-build/tests/CMakeFiles/cpp_example1.dir/cpp_example1.cpp.obj
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\cpp_example1.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\cpp_example1.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\cpp_example1.dir\
-  TARGET_PDB = _deps\roaring-build\tests\cpp_example1.pdb
 
 
 # =============================================================================
@@ -2352,10 +2279,9 @@ build _deps/roaring-build/tests/cpp_example1.exe: CXX_EXECUTABLE_LINKER__cpp_exa
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\cpp_example1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\cpp_example1.dir\
   TARGET_FILE = _deps\roaring-build\tests\cpp_example1.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\libcpp_example1.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\cpp_example1.pdb
+  TARGET_PDB = cpp_example1.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target cpp_example2
@@ -2373,8 +2299,6 @@ build _deps/roaring-build/tests/CMakeFiles/cpp_example2.dir/cpp_example2.cpp.obj
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\cpp_example2.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\cpp_example2.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\cpp_example2.dir\
-  TARGET_PDB = _deps\roaring-build\tests\cpp_example2.pdb
 
 
 # =============================================================================
@@ -2390,10 +2314,9 @@ build _deps/roaring-build/tests/cpp_example2.exe: CXX_EXECUTABLE_LINKER__cpp_exa
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\cpp_example2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\cpp_example2.dir\
   TARGET_FILE = _deps\roaring-build\tests\cpp_example2.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\libcpp_example2.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\cpp_example2.pdb
+  TARGET_PDB = cpp_example2.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target c_example1
@@ -2411,8 +2334,6 @@ build _deps/roaring-build/tests/CMakeFiles/c_example1.dir/c_example1.c.obj: C_CO
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\c_example1.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\c_example1.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\c_example1.dir\
-  TARGET_PDB = _deps\roaring-build\tests\c_example1.pdb
 
 
 # =============================================================================
@@ -2428,10 +2349,9 @@ build _deps/roaring-build/tests/c_example1.exe: C_EXECUTABLE_LINKER__c_example1_
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\c_example1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\c_example1.dir\
   TARGET_FILE = _deps\roaring-build\tests\c_example1.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\libc_example1.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\c_example1.pdb
+  TARGET_PDB = c_example1.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target cbitset_unit
@@ -2449,8 +2369,6 @@ build _deps/roaring-build/tests/CMakeFiles/cbitset_unit.dir/cbitset_unit.c.obj: 
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\cbitset_unit.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\cbitset_unit.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\cbitset_unit.dir\
-  TARGET_PDB = _deps\roaring-build\tests\cbitset_unit.pdb
 
 
 # =============================================================================
@@ -2466,10 +2384,9 @@ build _deps/roaring-build/tests/cbitset_unit.exe: C_EXECUTABLE_LINKER__cbitset_u
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\cbitset_unit.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\cbitset_unit.dir\
   TARGET_FILE = _deps\roaring-build\tests\cbitset_unit.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\libcbitset_unit.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\cbitset_unit.pdb
+  TARGET_PDB = cbitset_unit.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target array_container_unit
@@ -2487,8 +2404,6 @@ build _deps/roaring-build/tests/CMakeFiles/array_container_unit.dir/array_contai
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\array_container_unit.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\array_container_unit.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\array_container_unit.dir\
-  TARGET_PDB = _deps\roaring-build\tests\array_container_unit.pdb
 
 
 # =============================================================================
@@ -2504,10 +2419,9 @@ build _deps/roaring-build/tests/array_container_unit.exe: C_EXECUTABLE_LINKER__a
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\array_container_unit.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\array_container_unit.dir\
   TARGET_FILE = _deps\roaring-build\tests\array_container_unit.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\libarray_container_unit.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\array_container_unit.pdb
+  TARGET_PDB = array_container_unit.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target bitset_container_unit
@@ -2525,8 +2439,6 @@ build _deps/roaring-build/tests/CMakeFiles/bitset_container_unit.dir/bitset_cont
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\bitset_container_unit.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\bitset_container_unit.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\bitset_container_unit.dir\
-  TARGET_PDB = _deps\roaring-build\tests\bitset_container_unit.pdb
 
 
 # =============================================================================
@@ -2542,10 +2454,9 @@ build _deps/roaring-build/tests/bitset_container_unit.exe: C_EXECUTABLE_LINKER__
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\bitset_container_unit.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\bitset_container_unit.dir\
   TARGET_FILE = _deps\roaring-build\tests\bitset_container_unit.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\libbitset_container_unit.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\bitset_container_unit.pdb
+  TARGET_PDB = bitset_container_unit.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target mixed_container_unit
@@ -2563,8 +2474,6 @@ build _deps/roaring-build/tests/CMakeFiles/mixed_container_unit.dir/mixed_contai
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\mixed_container_unit.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\mixed_container_unit.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\mixed_container_unit.dir\
-  TARGET_PDB = _deps\roaring-build\tests\mixed_container_unit.pdb
 
 
 # =============================================================================
@@ -2580,10 +2489,9 @@ build _deps/roaring-build/tests/mixed_container_unit.exe: C_EXECUTABLE_LINKER__m
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\mixed_container_unit.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\mixed_container_unit.dir\
   TARGET_FILE = _deps\roaring-build\tests\mixed_container_unit.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\libmixed_container_unit.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\mixed_container_unit.pdb
+  TARGET_PDB = mixed_container_unit.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target run_container_unit
@@ -2601,8 +2509,6 @@ build _deps/roaring-build/tests/CMakeFiles/run_container_unit.dir/run_container_
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\run_container_unit.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\run_container_unit.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\run_container_unit.dir\
-  TARGET_PDB = _deps\roaring-build\tests\run_container_unit.pdb
 
 
 # =============================================================================
@@ -2618,10 +2524,9 @@ build _deps/roaring-build/tests/run_container_unit.exe: C_EXECUTABLE_LINKER__run
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\run_container_unit.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\run_container_unit.dir\
   TARGET_FILE = _deps\roaring-build\tests\run_container_unit.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\librun_container_unit.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\run_container_unit.pdb
+  TARGET_PDB = run_container_unit.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target toplevel_unit
@@ -2639,8 +2544,6 @@ build _deps/roaring-build/tests/CMakeFiles/toplevel_unit.dir/toplevel_unit.c.obj
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\toplevel_unit.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\toplevel_unit.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\toplevel_unit.dir\
-  TARGET_PDB = _deps\roaring-build\tests\toplevel_unit.pdb
 
 
 # =============================================================================
@@ -2656,10 +2559,9 @@ build _deps/roaring-build/tests/toplevel_unit.exe: C_EXECUTABLE_LINKER__toplevel
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\toplevel_unit.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\toplevel_unit.dir\
   TARGET_FILE = _deps\roaring-build\tests\toplevel_unit.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\libtoplevel_unit.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\toplevel_unit.pdb
+  TARGET_PDB = toplevel_unit.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target util_unit
@@ -2677,8 +2579,6 @@ build _deps/roaring-build/tests/CMakeFiles/util_unit.dir/util_unit.c.obj: C_COMP
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\util_unit.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\util_unit.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\util_unit.dir\
-  TARGET_PDB = _deps\roaring-build\tests\util_unit.pdb
 
 
 # =============================================================================
@@ -2694,10 +2594,9 @@ build _deps/roaring-build/tests/util_unit.exe: C_EXECUTABLE_LINKER__util_unit_Re
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\util_unit.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\util_unit.dir\
   TARGET_FILE = _deps\roaring-build\tests\util_unit.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\libutil_unit.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\util_unit.pdb
+  TARGET_PDB = util_unit.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target format_portability_unit
@@ -2715,8 +2614,6 @@ build _deps/roaring-build/tests/CMakeFiles/format_portability_unit.dir/format_po
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\format_portability_unit.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\format_portability_unit.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\format_portability_unit.dir\
-  TARGET_PDB = _deps\roaring-build\tests\format_portability_unit.pdb
 
 
 # =============================================================================
@@ -2732,10 +2629,9 @@ build _deps/roaring-build/tests/format_portability_unit.exe: C_EXECUTABLE_LINKER
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\format_portability_unit.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\format_portability_unit.dir\
   TARGET_FILE = _deps\roaring-build\tests\format_portability_unit.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\libformat_portability_unit.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\format_portability_unit.pdb
+  TARGET_PDB = format_portability_unit.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target robust_deserialization_unit
@@ -2753,8 +2649,6 @@ build _deps/roaring-build/tests/CMakeFiles/robust_deserialization_unit.dir/robus
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\robust_deserialization_unit.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\robust_deserialization_unit.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\robust_deserialization_unit.dir\
-  TARGET_PDB = _deps\roaring-build\tests\robust_deserialization_unit.pdb
 
 
 # =============================================================================
@@ -2770,10 +2664,9 @@ build _deps/roaring-build/tests/robust_deserialization_unit.exe: C_EXECUTABLE_LI
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\robust_deserialization_unit.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\robust_deserialization_unit.dir\
   TARGET_FILE = _deps\roaring-build\tests\robust_deserialization_unit.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\librobust_deserialization_unit.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\robust_deserialization_unit.pdb
+  TARGET_PDB = robust_deserialization_unit.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target container_comparison_unit
@@ -2791,8 +2684,6 @@ build _deps/roaring-build/tests/CMakeFiles/container_comparison_unit.dir/contain
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\container_comparison_unit.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\container_comparison_unit.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\container_comparison_unit.dir\
-  TARGET_PDB = _deps\roaring-build\tests\container_comparison_unit.pdb
 
 
 # =============================================================================
@@ -2808,10 +2699,9 @@ build _deps/roaring-build/tests/container_comparison_unit.exe: C_EXECUTABLE_LINK
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\container_comparison_unit.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\container_comparison_unit.dir\
   TARGET_FILE = _deps\roaring-build\tests\container_comparison_unit.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\libcontainer_comparison_unit.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\container_comparison_unit.pdb
+  TARGET_PDB = container_comparison_unit.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target add_offset
@@ -2829,8 +2719,6 @@ build _deps/roaring-build/tests/CMakeFiles/add_offset.dir/add_offset.c.obj: C_CO
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/cmocka-src/include
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\add_offset.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\add_offset.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\add_offset.dir\
-  TARGET_PDB = _deps\roaring-build\tests\add_offset.pdb
 
 
 # =============================================================================
@@ -2846,10 +2734,9 @@ build _deps/roaring-build/tests/add_offset.exe: C_EXECUTABLE_LINKER__add_offset_
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\add_offset.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\add_offset.dir\
   TARGET_FILE = _deps\roaring-build\tests\add_offset.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\libadd_offset.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\add_offset.pdb
+  TARGET_PDB = add_offset.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target threads_unit
@@ -2867,8 +2754,6 @@ build _deps/roaring-build/tests/CMakeFiles/threads_unit.dir/threads_unit.cpp.obj
   INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\threads_unit.dir
   OBJECT_FILE_DIR = _deps\roaring-build\tests\CMakeFiles\threads_unit.dir
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\threads_unit.dir\
-  TARGET_PDB = _deps\roaring-build\tests\threads_unit.pdb
 
 
 # =============================================================================
@@ -2884,10 +2769,9 @@ build _deps/roaring-build/tests/threads_unit.exe: CXX_EXECUTABLE_LINKER__threads
   OBJECT_DIR = _deps\roaring-build\tests\CMakeFiles\threads_unit.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\roaring-build\tests\CMakeFiles\threads_unit.dir\
   TARGET_FILE = _deps\roaring-build\tests\threads_unit.exe
   TARGET_IMPLIB = _deps\roaring-build\tests\libthreads_unit.dll.a
-  TARGET_PDB = _deps\roaring-build\tests\threads_unit.pdb
+  TARGET_PDB = threads_unit.exe.dbg
 
 
 #############################################
@@ -3139,6 +3023,8 @@ build mixed_container_unit.exe: phony _deps/roaring-build/tests/mixed_container_
 
 build roaring: phony _deps/roaring-build/src/libroaring.a
 
+build roaring_filter: phony roaring_filter.exe
+
 build robust_deserialization_unit: phony _deps/roaring-build/tests/robust_deserialization_unit.exe
 
 build robust_deserialization_unit.exe: phony _deps/roaring-build/tests/robust_deserialization_unit.exe
@@ -3177,7 +3063,7 @@ build util_unit.exe: phony _deps/roaring-build/tests/util_unit.exe
 #############################################
 # Folder: C:/Code/HNSW-Attribute-Filtering-Optimization/build
 
-build all: phony example_filter.exe bitset_filter.exe linear_filter.exe hnsw_optimization.exe test_roaring.exe _deps/roaring-build/all
+build all: phony example_filter.exe bitset_filter.exe linear_filter.exe hnsw_optimization.exe test_roaring.exe roaring_filter.exe _deps/roaring-build/all
 
 # =============================================================================
 
@@ -3249,14 +3135,14 @@ build _deps/roaring-build/tests/all: phony _deps/roaring-build/tests/cpp_unit.ex
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Code/HNSW-Attribute-Filtering-Optimization/CMakeLists.txt C$:/Code/HNSW-Attribute-Filtering-Optimization/cmake/CPM.cmake C$:/msys64/mingw64/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakePackageConfigHelpers.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CPack.cmake C$:/msys64/mingw64/share/cmake/Modules/CPackComponent.cmake C$:/msys64/mingw64/share/cmake/Modules/CTest.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCXXSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckFunctionExists.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckIncludeFile.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckIncludeFileCXX.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckLibraryExists.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckStructHasMember.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckSymbolExists.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckTypeSize.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/mingw64/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake C$:/msys64/mingw64/share/cmake/Modules/FetchContent.cmake C$:/msys64/mingw64/share/cmake/Modules/FetchContent/CMakeLists.cmake.in C$:/msys64/mingw64/share/cmake/Modules/FindDoxygen.cmake C$:/msys64/mingw64/share/cmake/Modules/FindGit.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindThreads.cmake C$:/msys64/mingw64/share/cmake/Modules/GNUInstallDirs.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Modules/TestBigEndian.cmake C$:/msys64/mingw64/share/cmake/Modules/WriteBasicConfigVersionFile.cmake C$:/msys64/mingw64/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake _deps/cmocka-src/CMakeLists.txt _deps/cmocka-src/CPackConfig.cmake _deps/cmocka-src/CTestConfig.cmake _deps/cmocka-src/CompilerChecks.cmake _deps/cmocka-src/ConfigureChecks.cmake _deps/cmocka-src/DefineOptions.cmake _deps/cmocka-src/cmake/Modules/AddCCompilerFlag.cmake _deps/cmocka-src/cmake/Modules/AddCMockaTest.cmake _deps/cmocka-src/cmake/Modules/CheckCCompilerFlagSSP.cmake _deps/cmocka-src/cmake/Modules/DefineCMakeDefaults.cmake _deps/cmocka-src/cmake/Modules/DefineCompilerFlags.cmake _deps/cmocka-src/cmake/Modules/DefinePlatformDefaults.cmake _deps/cmocka-src/cmake/Modules/FindNSIS.cmake _deps/cmocka-src/cmake/Modules/MacroEnsureOutOfSourceBuild.cmake _deps/cmocka-src/cmocka-config.cmake.in _deps/cmocka-src/cmocka.pc.cmake _deps/cmocka-src/config.h.cmake _deps/cmocka-src/doc/CMakeLists.txt _deps/cmocka-src/example/CMakeLists.txt _deps/cmocka-src/include/CMakeLists.txt _deps/cmocka-src/src/CMakeLists.txt _deps/roaring-src/CMakeLists.txt _deps/roaring-src/benchmarks/CMakeLists.txt _deps/roaring-src/cmake/CPM.cmake _deps/roaring-src/roaring.pc.in _deps/roaring-src/src/CMakeLists.txt _deps/roaring-src/tests/CMakeLists.txt _deps/roaring-src/tests/config.h.in _deps/roaring-src/tools/cmake/CTestCustom.cmake _deps/roaring-src/tools/cmake/FindCTargets.cmake _deps/roaring-src/tools/cmake/FindLTO.cmake _deps/roaring-src/tools/cmake/FindOptions.cmake _deps/roaring-src/tools/cmake/Import.cmake cmake/CPM_0.38.6.cmake cmake/CPM_0.40.4.cmake
+build build.ninja: RERUN_CMAKE | C$:/Code/HNSW-Attribute-Filtering-Optimization/CMakeLists.txt C$:/Code/HNSW-Attribute-Filtering-Optimization/cmake/CPM.cmake C$:/msys64/mingw64/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakePackageConfigHelpers.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CPack.cmake C$:/msys64/mingw64/share/cmake/Modules/CPackComponent.cmake C$:/msys64/mingw64/share/cmake/Modules/CTest.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCXXSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckFunctionExists.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckIncludeFile.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckIncludeFileCXX.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckLibraryExists.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckStructHasMember.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckSymbolExists.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckTypeSize.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/mingw64/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake C$:/msys64/mingw64/share/cmake/Modules/FetchContent.cmake C$:/msys64/mingw64/share/cmake/Modules/FetchContent/CMakeLists.cmake.in C$:/msys64/mingw64/share/cmake/Modules/FindDoxygen.cmake C$:/msys64/mingw64/share/cmake/Modules/FindGit.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindThreads.cmake C$:/msys64/mingw64/share/cmake/Modules/GNUInstallDirs.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Modules/TestBigEndian.cmake C$:/msys64/mingw64/share/cmake/Modules/WriteBasicConfigVersionFile.cmake C$:/msys64/mingw64/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake _deps/cmocka-src/CMakeLists.txt _deps/cmocka-src/CPackConfig.cmake _deps/cmocka-src/CTestConfig.cmake _deps/cmocka-src/CompilerChecks.cmake _deps/cmocka-src/ConfigureChecks.cmake _deps/cmocka-src/DefineOptions.cmake _deps/cmocka-src/cmake/Modules/AddCCompilerFlag.cmake _deps/cmocka-src/cmake/Modules/AddCMockaTest.cmake _deps/cmocka-src/cmake/Modules/CheckCCompilerFlagSSP.cmake _deps/cmocka-src/cmake/Modules/DefineCMakeDefaults.cmake _deps/cmocka-src/cmake/Modules/DefineCompilerFlags.cmake _deps/cmocka-src/cmake/Modules/DefinePlatformDefaults.cmake _deps/cmocka-src/cmake/Modules/FindNSIS.cmake _deps/cmocka-src/cmake/Modules/MacroEnsureOutOfSourceBuild.cmake _deps/cmocka-src/cmocka-config.cmake.in _deps/cmocka-src/cmocka.pc.cmake _deps/cmocka-src/config.h.cmake _deps/cmocka-src/doc/CMakeLists.txt _deps/cmocka-src/example/CMakeLists.txt _deps/cmocka-src/include/CMakeLists.txt _deps/cmocka-src/src/CMakeLists.txt _deps/roaring-src/CMakeLists.txt _deps/roaring-src/benchmarks/CMakeLists.txt _deps/roaring-src/cmake/CPM.cmake _deps/roaring-src/roaring.pc.in _deps/roaring-src/src/CMakeLists.txt _deps/roaring-src/tests/CMakeLists.txt _deps/roaring-src/tests/config.h.in _deps/roaring-src/tools/cmake/CTestCustom.cmake _deps/roaring-src/tools/cmake/FindCTargets.cmake _deps/roaring-src/tools/cmake/FindLTO.cmake _deps/roaring-src/tools/cmake/FindOptions.cmake _deps/roaring-src/tools/cmake/Import.cmake cmake/CPM_0.38.6.cmake cmake/CPM_0.40.4.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Code/HNSW-Attribute-Filtering-Optimization/CMakeLists.txt C$:/Code/HNSW-Attribute-Filtering-Optimization/cmake/CPM.cmake C$:/msys64/mingw64/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakePackageConfigHelpers.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystem.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/CPack.cmake C$:/msys64/mingw64/share/cmake/Modules/CPackComponent.cmake C$:/msys64/mingw64/share/cmake/Modules/CTest.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCXXSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckFunctionExists.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckIncludeFile.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckIncludeFileCXX.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckLibraryExists.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckStructHasMember.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckSymbolExists.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckTypeSize.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/msys64/mingw64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/mingw64/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake C$:/msys64/mingw64/share/cmake/Modules/FetchContent.cmake C$:/msys64/mingw64/share/cmake/Modules/FetchContent/CMakeLists.cmake.in C$:/msys64/mingw64/share/cmake/Modules/FindDoxygen.cmake C$:/msys64/mingw64/share/cmake/Modules/FindGit.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindThreads.cmake C$:/msys64/mingw64/share/cmake/Modules/GNUInstallDirs.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Modules/TestBigEndian.cmake C$:/msys64/mingw64/share/cmake/Modules/WriteBasicConfigVersionFile.cmake C$:/msys64/mingw64/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake _deps/cmocka-src/CMakeLists.txt _deps/cmocka-src/CPackConfig.cmake _deps/cmocka-src/CTestConfig.cmake _deps/cmocka-src/CompilerChecks.cmake _deps/cmocka-src/ConfigureChecks.cmake _deps/cmocka-src/DefineOptions.cmake _deps/cmocka-src/cmake/Modules/AddCCompilerFlag.cmake _deps/cmocka-src/cmake/Modules/AddCMockaTest.cmake _deps/cmocka-src/cmake/Modules/CheckCCompilerFlagSSP.cmake _deps/cmocka-src/cmake/Modules/DefineCMakeDefaults.cmake _deps/cmocka-src/cmake/Modules/DefineCompilerFlags.cmake _deps/cmocka-src/cmake/Modules/DefinePlatformDefaults.cmake _deps/cmocka-src/cmake/Modules/FindNSIS.cmake _deps/cmocka-src/cmake/Modules/MacroEnsureOutOfSourceBuild.cmake _deps/cmocka-src/cmocka-config.cmake.in _deps/cmocka-src/cmocka.pc.cmake _deps/cmocka-src/config.h.cmake _deps/cmocka-src/doc/CMakeLists.txt _deps/cmocka-src/example/CMakeLists.txt _deps/cmocka-src/include/CMakeLists.txt _deps/cmocka-src/src/CMakeLists.txt _deps/roaring-src/CMakeLists.txt _deps/roaring-src/benchmarks/CMakeLists.txt _deps/roaring-src/cmake/CPM.cmake _deps/roaring-src/roaring.pc.in _deps/roaring-src/src/CMakeLists.txt _deps/roaring-src/tests/CMakeLists.txt _deps/roaring-src/tests/config.h.in _deps/roaring-src/tools/cmake/CTestCustom.cmake _deps/roaring-src/tools/cmake/FindCTargets.cmake _deps/roaring-src/tools/cmake/FindLTO.cmake _deps/roaring-src/tools/cmake/FindOptions.cmake _deps/roaring-src/tools/cmake/Import.cmake cmake/CPM_0.38.6.cmake cmake/CPM_0.40.4.cmake: phony
+build C$:/Code/HNSW-Attribute-Filtering-Optimization/CMakeLists.txt C$:/Code/HNSW-Attribute-Filtering-Optimization/cmake/CPM.cmake C$:/msys64/mingw64/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/msys64/mingw64/share/cmake/Modules/CMakeCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakePackageConfigHelpers.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake C$:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake C$:/msys64/mingw64/share/cmake/Modules/CPack.cmake C$:/msys64/mingw64/share/cmake/Modules/CPackComponent.cmake C$:/msys64/mingw64/share/cmake/Modules/CTest.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestTargets.cmake C$:/msys64/mingw64/share/cmake/Modules/CTestUseLaunchers.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckCXXSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckFunctionExists.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckIncludeFile.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckIncludeFileCXX.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckLibraryExists.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckStructHasMember.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckSymbolExists.cmake C$:/msys64/mingw64/share/cmake/Modules/CheckTypeSize.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Compiler/GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/DartConfiguration.tcl.in C$:/msys64/mingw64/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake C$:/msys64/mingw64/share/cmake/Modules/FetchContent.cmake C$:/msys64/mingw64/share/cmake/Modules/FetchContent/CMakeLists.cmake.in C$:/msys64/mingw64/share/cmake/Modules/FindDoxygen.cmake C$:/msys64/mingw64/share/cmake/Modules/FindGit.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageHandleStandardArgs.cmake C$:/msys64/mingw64/share/cmake/Modules/FindPackageMessage.cmake C$:/msys64/mingw64/share/cmake/Modules/FindThreads.cmake C$:/msys64/mingw64/share/cmake/Modules/GNUInstallDirs.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckCompilerFlag.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake C$:/msys64/mingw64/share/cmake/Modules/Internal/CheckSourceCompiles.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-C.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake C$:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake C$:/msys64/mingw64/share/cmake/Modules/TestBigEndian.cmake C$:/msys64/mingw64/share/cmake/Modules/WriteBasicConfigVersionFile.cmake C$:/msys64/mingw64/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake _deps/cmocka-src/CMakeLists.txt _deps/cmocka-src/CPackConfig.cmake _deps/cmocka-src/CTestConfig.cmake _deps/cmocka-src/CompilerChecks.cmake _deps/cmocka-src/ConfigureChecks.cmake _deps/cmocka-src/DefineOptions.cmake _deps/cmocka-src/cmake/Modules/AddCCompilerFlag.cmake _deps/cmocka-src/cmake/Modules/AddCMockaTest.cmake _deps/cmocka-src/cmake/Modules/CheckCCompilerFlagSSP.cmake _deps/cmocka-src/cmake/Modules/DefineCMakeDefaults.cmake _deps/cmocka-src/cmake/Modules/DefineCompilerFlags.cmake _deps/cmocka-src/cmake/Modules/DefinePlatformDefaults.cmake _deps/cmocka-src/cmake/Modules/FindNSIS.cmake _deps/cmocka-src/cmake/Modules/MacroEnsureOutOfSourceBuild.cmake _deps/cmocka-src/cmocka-config.cmake.in _deps/cmocka-src/cmocka.pc.cmake _deps/cmocka-src/config.h.cmake _deps/cmocka-src/doc/CMakeLists.txt _deps/cmocka-src/example/CMakeLists.txt _deps/cmocka-src/include/CMakeLists.txt _deps/cmocka-src/src/CMakeLists.txt _deps/roaring-src/CMakeLists.txt _deps/roaring-src/benchmarks/CMakeLists.txt _deps/roaring-src/cmake/CPM.cmake _deps/roaring-src/roaring.pc.in _deps/roaring-src/src/CMakeLists.txt _deps/roaring-src/tests/CMakeLists.txt _deps/roaring-src/tests/config.h.in _deps/roaring-src/tools/cmake/CTestCustom.cmake _deps/roaring-src/tools/cmake/FindCTargets.cmake _deps/roaring-src/tools/cmake/FindLTO.cmake _deps/roaring-src/tools/cmake/FindOptions.cmake _deps/roaring-src/tools/cmake/Import.cmake cmake/CPM_0.38.6.cmake cmake/CPM_0.40.4.cmake: phony
 
 
 #############################################

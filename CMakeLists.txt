@@ -45,3 +45,6 @@ target_link_libraries(hnsw_optimization PUBLIC roaring::roaring)
 
 add_executable(test_roaring src/test_roaring.cpp ${ROARING_SRC})
 target_link_libraries(test_roaring PUBLIC roaring::roaring)
+
+add_executable(roaring_filter src/roaring_bitmaps_filter.cpp ${ROARING_SRC})
+target_link_libraries(roaring_filter PUBLIC roaring::roaring)
