@@ -1,10 +1,17 @@
 # ninja log v5
-321	419	7565899971238506	hnsw_optimization.exe	f1d2405ab593cd55
-3	316	7565899970270046	CMakeFiles/hnsw_optimization.dir/src/main.cpp.obj	1975ca2336b6326f
-3	148	7565924132545477	build.ninja	bd29459da971fd06
+2479	2633	7566037882380243	bitset_filter.exe	381f198a40fd9335
+17	2479	7566037880965134	CMakeFiles/bitset_filter.dir/src/bitset_filter.cpp.obj	e8f5bf2e4a0fe1cd
+2268	2403	7565925423113987	example_filter.exe	a78f1b3886afc882
+15	2267	7565925421795351	CMakeFiles/example_filter.dir/src/example_filter.cpp.obj	20176198309e9b9
+15	161	7566042666912874	build.ninja	bd29459da971fd06
 26	1300	7565924145810971	CMakeFiles/hnsw_optimization.dir/src/main.cpp.obj	1975ca2336b6326f
 1302	1422	7565924146828001	hnsw_optimization.exe	f1d2405ab593cd55
-29	2485	7565924157565582	CMakeFiles/example_filter.dir/src/example_filter.cpp.obj	20176198309e9b9
-2485	2617	7565924158916586	example_filter.exe	a78f1b3886afc882
-15	2267	7565925421795351	CMakeFiles/example_filter.dir/src/example_filter.cpp.obj	20176198309e9b9
-2268	2403	7565925423113987	example_filter.exe	a78f1b3886afc882
+25	2449	7565998638946028	CMakeFiles/binary_filter.dir/src/binary_filter.cpp.obj	6bcebd3ce642e197
+2449	2723	7565998641611508	binary_filter.exe	d7e3930e7c886059
+13	158	7566042666912874	build.ninja	bd29459da971fd06
+28	2760	7566042694797853	CMakeFiles/linear_filter.dir/src/linear_filter.cpp.obj	4c3900799d28b7e7
+31	2774	7566042694954117	CMakeFiles/bitset_filter.dir/src/bitset_filter.cpp.obj	e8f5bf2e4a0fe1cd
+2761	2937	7566042696451808	linear_filter.exe	655eb34707fe820d
+2774	2938	7566042696451808	bitset_filter.exe	381f198a40fd9335
+5	4648	7566164752779757	CMakeFiles/linear_filter.dir/src/linear_filter.cpp.obj	4c3900799d28b7e7
+4649	4966	7566164755965248	linear_filter.exe	655eb34707fe820d

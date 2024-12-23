@@ -101,6 +101,72 @@ build example_filter.exe: CXX_EXECUTABLE_LINKER__example_filter_ CMakeFiles/exam
   TARGET_IMPLIB = libexample_filter.dll.a
   TARGET_PDB = example_filter.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target linear_filter
+
+
+#############################################
+# Order-only phony target for linear_filter
+
+build cmake_object_order_depends_target_linear_filter: phony || CMakeFiles/linear_filter.dir
+
+build CMakeFiles/linear_filter.dir/src/linear_filter.cpp.obj: CXX_COMPILER__linear_filter_unscanned_ C$:/Code/HNSW-Attribute-Filtering-Optimization/src/linear_filter.cpp || cmake_object_order_depends_target_linear_filter
+  DEP_FILE = CMakeFiles\linear_filter.dir\src\linear_filter.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include
+  OBJECT_DIR = CMakeFiles\linear_filter.dir
+  OBJECT_FILE_DIR = CMakeFiles\linear_filter.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linear_filter
+
+
+#############################################
+# Link the executable linear_filter.exe
+
+build linear_filter.exe: CXX_EXECUTABLE_LINKER__linear_filter_ CMakeFiles/linear_filter.dir/src/linear_filter.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\linear_filter.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = linear_filter.exe
+  TARGET_IMPLIB = liblinear_filter.dll.a
+  TARGET_PDB = linear_filter.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bitset_filter
+
+
+#############################################
+# Order-only phony target for bitset_filter
+
+build cmake_object_order_depends_target_bitset_filter: phony || CMakeFiles/bitset_filter.dir
+
+build CMakeFiles/bitset_filter.dir/src/bitset_filter.cpp.obj: CXX_COMPILER__bitset_filter_unscanned_ C$:/Code/HNSW-Attribute-Filtering-Optimization/src/bitset_filter.cpp || cmake_object_order_depends_target_bitset_filter
+  DEP_FILE = CMakeFiles\bitset_filter.dir\src\bitset_filter.cpp.obj.d
+  FLAGS = -std=gnu++17
+  INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include
+  OBJECT_DIR = CMakeFiles\bitset_filter.dir
+  OBJECT_FILE_DIR = CMakeFiles\bitset_filter.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bitset_filter
+
+
+#############################################
+# Link the executable bitset_filter.exe
+
+build bitset_filter.exe: CXX_EXECUTABLE_LINKER__bitset_filter_ CMakeFiles/bitset_filter.dir/src/bitset_filter.cpp.obj
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\bitset_filter.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bitset_filter.exe
+  TARGET_IMPLIB = libbitset_filter.dll.a
+  TARGET_PDB = bitset_filter.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -127,9 +193,13 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build bitset_filter: phony bitset_filter.exe
+
 build example_filter: phony example_filter.exe
 
 build hnsw_optimization: phony hnsw_optimization.exe
+
+build linear_filter: phony linear_filter.exe
 
 # =============================================================================
 # Folder targets.
@@ -139,7 +209,7 @@ build hnsw_optimization: phony hnsw_optimization.exe
 #############################################
 # Folder: C:/Code/HNSW-Attribute-Filtering-Optimization/build
 
-build all: phony hnsw_optimization.exe example_filter.exe
+build all: phony hnsw_optimization.exe example_filter.exe linear_filter.exe bitset_filter.exe
 
 # =============================================================================
 # Built-in targets

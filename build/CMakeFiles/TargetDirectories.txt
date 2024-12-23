@@ -1,4 +1,6 @@
 C:/Code/HNSW-Attribute-Filtering-Optimization/build/CMakeFiles/hnsw_optimization.dir
 C:/Code/HNSW-Attribute-Filtering-Optimization/build/CMakeFiles/example_filter.dir
+C:/Code/HNSW-Attribute-Filtering-Optimization/build/CMakeFiles/linear_filter.dir
+C:/Code/HNSW-Attribute-Filtering-Optimization/build/CMakeFiles/bitset_filter.dir
 C:/Code/HNSW-Attribute-Filtering-Optimization/build/CMakeFiles/edit_cache.dir
 C:/Code/HNSW-Attribute-Filtering-Optimization/build/CMakeFiles/rebuild_cache.dir

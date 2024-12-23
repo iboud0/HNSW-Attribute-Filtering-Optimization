@@ -17,4 +17,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 # Add source files
 add_executable(hnsw_optimization src/main.cpp)
 add_executable(example_filter src/example_filter.cpp)
+add_executable(linear_filter src/linear_filter.cpp)
+add_executable(bitset_filter src/bitset_filter.cpp)
+
 
