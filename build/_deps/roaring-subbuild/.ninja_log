@@ -1,0 +1,21 @@
+# ninja log v5
+1	63	7566231665481435	roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-mkdir	c2dcf3d5563613d6
+1	63	7566231665481435	C:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-subbuild/roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-mkdir	c2dcf3d5563613d6
+63	37635	7566232041200710	roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-download	f89cb1d9449b6cbf
+63	37635	7566232041200710	C:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-subbuild/roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-download	f89cb1d9449b6cbf
+37635	37772	0	roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-update	acde53646cc88816
+37635	37772	0	C:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-subbuild/roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-update	acde53646cc88816
+37772	37831	7566232043170146	roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-patch	e0eef7821d27e6aa
+37772	37831	7566232043170146	C:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-subbuild/roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-patch	e0eef7821d27e6aa
+37831	37890	7566232043753319	roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-configure	bd32c28683601114
+37831	37890	7566232043753319	C:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-subbuild/roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-configure	bd32c28683601114
+37890	37949	7566232044344794	roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-build	3c3a837e00852f8b
+37890	37949	7566232044344794	C:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-subbuild/roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-build	3c3a837e00852f8b
+37949	38008	7566232044934602	roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-install	cd6d9aecdf7cd64e
+37949	38008	7566232044934602	C:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-subbuild/roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-install	cd6d9aecdf7cd64e
+38008	38065	7566232045512242	roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-test	daf8cdbc30170b4f
+38008	38065	7566232045512242	C:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-subbuild/roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-test	daf8cdbc30170b4f
+38065	38148	7566232046335500	CMakeFiles/roaring-populate-complete	bf6d702f06f3076f
+38065	38148	7566232046335500	roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-done	bf6d702f06f3076f
+38065	38148	7566232046335500	C:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-subbuild/CMakeFiles/roaring-populate-complete	bf6d702f06f3076f
+38065	38148	7566232046335500	C:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-subbuild/roaring-populate-prefix/src/roaring-populate-stamp/roaring-populate-done	bf6d702f06f3076f
