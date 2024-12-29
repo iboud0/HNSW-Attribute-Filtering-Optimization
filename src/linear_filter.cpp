@@ -8,18 +8,43 @@
 #include "hnswlib/hnswlib.h"
 
 // Constants
-const int NUM_ATTRIBUTES = 1000;
+const int NUM_ATTRIBUTES = 100000;
 const int MAX_ELEMENTS = 10000;
 const int DIM = 16;
 
 // Function to generate random attributes for a data point
-std::bitset<NUM_ATTRIBUTES> generateRandomAttributes(std::mt19937 &rng) {
+std::bitset<NUM_ATTRIBUTES> generateRandomAttributes(std::mt19937 &rng, double active_attributes_percentage) {
     std::bitset<NUM_ATTRIBUTES> attributes;
-    std::uniform_int_distribution<> distrib(0, 1);
-    for (int i = 0; i < NUM_ATTRIBUTES; ++i) {
-        attributes[i] = distrib(rng);
+    std::uniform_int_distribution<> distrib(0, NUM_ATTRIBUTES - 1);
+
+    int num_active = static_cast<int>(NUM_ATTRIBUTES * active_attributes_percentage / 100.0);
+    std::unordered_set<int> activated_indices;
+
+    while (activated_indices.size() < num_active) {
+        int index = distrib(rng);
+        if (activated_indices.find(index) == activated_indices.end()) {
+            attributes[index] = 1;
+            activated_indices.insert(index);
+        }
     }
+
     return attributes;
+}
+
+std::bitset<NUM_ATTRIBUTES> generateRandomTarget(std::mt19937 &rng, int num_active_bits) {
+    std::bitset<NUM_ATTRIBUTES> target;
+    std::uniform_int_distribution<> distrib(0, NUM_ATTRIBUTES - 1);
+    std::unordered_set<int> activated_indices;
+
+    while (activated_indices.size() < num_active_bits) {
+        int index = distrib(rng);
+        if (activated_indices.find(index) == activated_indices.end()) {
+            target[index] = 1;
+            activated_indices.insert(index);
+        }
+    }
+
+    return target;
 }
 
 // Linear filter class for attribute-based filtering
@@ -43,6 +68,14 @@ public:
     }
 };
 
+size_t estimateMemoryUsage(const std::unordered_map<hnswlib::labeltype, std::bitset<NUM_ATTRIBUTES>>& attribute_map) {
+    size_t total_size = 0;
+    for (const auto& pair : attribute_map) {
+        total_size += sizeof(pair.first) + sizeof(pair.second);
+    }
+    return total_size;
+}
+
 int main() {
     std::mt19937 rng(47);
     hnswlib::L2Space space(DIM);
@@ -57,43 +90,52 @@ int main() {
         data[i] = distrib_real(rng);
     }
 
-    // Generate attributes and add points to the index
-    for (int i = 0; i < MAX_ELEMENTS; ++i) {
-        std::bitset<NUM_ATTRIBUTES> attributes = generateRandomAttributes(rng);
-        attribute_map[i] = attributes;
-        alg_hnsw.addPoint(data + i * DIM, i);
-    }
-
-    // Define a target bitset for filtering
-    std::bitset<NUM_ATTRIBUTES> target;
-    target[0] = 1; // Example: Require the first attribute
-    target[2] = 1; // Example: Require the third attribute
-
-    // Define a query point
-    float query_point[DIM] = {0};
-    for (int i = 0; i < DIM; ++i) {
-        query_point[i] = distrib_real(rng);
-    }
-
-    // Create a LinearFilter instance
-    LinearFilter filter(target, attribute_map);
-
-    // Perform search with the filter
-    auto start = std::chrono::high_resolution_clock::now();
-    auto result = alg_hnsw.searchKnnCloserFirst(query_point, 10, &filter);
-
-    // Save results to file
+    // Test with three percentages
+    std::vector<double> percentages = {10.0, 50.0, 90.0};
     std::ofstream file("linear_filter_results.txt");
-    for (const auto& item : result) {
-        file << "ID: " << item.second << ", Distance: " << item.first << "\n";
+
+    for (double percentage : percentages) {
+        // Generate attributes with the current percentage of active attributes
+        attribute_map.clear();
+        for (int i = 0; i < MAX_ELEMENTS; ++i) {
+            std::bitset<NUM_ATTRIBUTES> attributes = generateRandomAttributes(rng, percentage);
+            attribute_map[i] = attributes;
+            alg_hnsw.addPoint(data + i * DIM, i);
+        }
+
+        // Generate a random target with a fixed number of active bits
+        int num_target_bits = 5; // Adjust as needed
+        std::bitset<NUM_ATTRIBUTES> target = generateRandomTarget(rng, num_target_bits);
+
+        // Define a query point
+        float query_point[DIM] = {0};
+        for (int i = 0; i < DIM; ++i) {
+            query_point[i] = distrib_real(rng);
+        }
+
+        // Create a LinearFilter instance
+        LinearFilter filter(target, attribute_map);
+
+        // Perform search with the filter
+        auto start = std::chrono::high_resolution_clock::now();
+        auto result = alg_hnsw.searchKnnCloserFirst(query_point, 10, &filter);
+        auto end = std::chrono::high_resolution_clock::now();
+
+        size_t memory_usage = estimateMemoryUsage(attribute_map);
+        double filtering_time = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
+
+        // Output results
+        file << "Percentage of active attributes: " << percentage << "%\n";
+        file << "Filtering time: " << filtering_time << " ms\n";
+        file << "Memory usage: " << memory_usage / 1024.0 << " KB\n\n";
+
+        for (const auto& item : result) {
+            file << "ID: " << item.second << ", Distance: " << item.first << "\n";
+        }
+        file << "-----------------------------\n";
     }
+
     file.close();
-
-    auto end = std::chrono::high_resolution_clock::now();
-    std::cout << "Linear filtering time: "
-              << std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count()
-              << " ms\n";
-
     delete[] data;
     return 0;
 }
