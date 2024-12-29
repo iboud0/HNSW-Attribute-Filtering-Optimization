@@ -39,7 +39,7 @@ public:
         if (it == attribute_map.end()) return false; // Label not found
         const roaring::Roaring& attributes = it->second;
         // Check if the target is a subset of attributes
-        bool is_match = target.isSubset(attributes);
+        bool is_match = (attributes & target) == target;
         return is_match;
     }
 };
