@@ -48,3 +48,9 @@ target_link_libraries(test_roaring PUBLIC roaring::roaring)
 
 add_executable(roaring_filter src/roaring_bitmaps_filter.cpp ${ROARING_SRC})
 target_link_libraries(roaring_filter PUBLIC roaring::roaring)
+
+add_executable(test_attributes src/test_attributes.cpp ${ROARING_SRC})
+target_link_libraries(test_attributes PUBLIC roaring::roaring)
+
+add_executable(test_filters src/test_filters.cpp ${ROARING_SRC})
+target_link_libraries(test_filters PUBLIC roaring::roaring)

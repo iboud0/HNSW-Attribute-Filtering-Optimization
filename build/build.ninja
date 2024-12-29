@@ -298,6 +298,92 @@ build roaring_filter.exe: CXX_EXECUTABLE_LINKER__roaring_filter_Release CMakeFil
   TARGET_IMPLIB = libroaring_filter.dll.a
   TARGET_PDB = roaring_filter.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test_attributes
+
+
+#############################################
+# Order-only phony target for test_attributes
+
+build cmake_object_order_depends_target_test_attributes: phony || cmake_object_order_depends_target_roaring
+
+build CMakeFiles/test_attributes.dir/src/test_attributes.cpp.obj: CXX_COMPILER__test_attributes_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/src/test_attributes.cpp || cmake_object_order_depends_target_test_attributes
+  DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
+  DEP_FILE = CMakeFiles\test_attributes.dir\src\test_attributes.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++17
+  INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
+  OBJECT_DIR = CMakeFiles\test_attributes.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_attributes.dir\src
+
+build CMakeFiles/test_attributes.dir/src/roaring.c.obj: C_COMPILER__test_attributes_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/src/roaring.c || cmake_object_order_depends_target_test_attributes
+  DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
+  DEP_FILE = CMakeFiles\test_attributes.dir\src\roaring.c.obj.d
+  FLAGS = -O3 -DNDEBUG
+  INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
+  OBJECT_DIR = CMakeFiles\test_attributes.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_attributes.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_attributes
+
+
+#############################################
+# Link the executable test_attributes.exe
+
+build test_attributes.exe: CXX_EXECUTABLE_LINKER__test_attributes_Release CMakeFiles/test_attributes.dir/src/test_attributes.cpp.obj CMakeFiles/test_attributes.dir/src/roaring.c.obj | _deps/roaring-build/src/libroaring.a || _deps/roaring-build/src/libroaring.a
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = _deps/roaring-build/src/libroaring.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_attributes.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_attributes.exe
+  TARGET_IMPLIB = libtest_attributes.dll.a
+  TARGET_PDB = test_attributes.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_filters
+
+
+#############################################
+# Order-only phony target for test_filters
+
+build cmake_object_order_depends_target_test_filters: phony || cmake_object_order_depends_target_roaring
+
+build CMakeFiles/test_filters.dir/src/test_filters.cpp.obj: CXX_COMPILER__test_filters_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/src/test_filters.cpp || cmake_object_order_depends_target_test_filters
+  DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
+  DEP_FILE = CMakeFiles\test_filters.dir\src\test_filters.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++17
+  INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
+  OBJECT_DIR = CMakeFiles\test_filters.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_filters.dir\src
+
+build CMakeFiles/test_filters.dir/src/roaring.c.obj: C_COMPILER__test_filters_unscanned_Release C$:/Code/HNSW-Attribute-Filtering-Optimization/src/roaring.c || cmake_object_order_depends_target_test_filters
+  DEFINES = -DCROARING_COMPILER_SUPPORTS_AVX512=0
+  DEP_FILE = CMakeFiles\test_filters.dir\src\roaring.c.obj.d
+  FLAGS = -O3 -DNDEBUG
+  INCLUDES = -IC:/Code/HNSW-Attribute-Filtering-Optimization/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/include/roaring -IC:/Code/HNSW-Attribute-Filtering-Optimization/build/_deps/roaring-src/cpp
+  OBJECT_DIR = CMakeFiles\test_filters.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_filters.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_filters
+
+
+#############################################
+# Link the executable test_filters.exe
+
+build test_filters.exe: CXX_EXECUTABLE_LINKER__test_filters_Release CMakeFiles/test_filters.dir/src/test_filters.cpp.obj CMakeFiles/test_filters.dir/src/roaring.c.obj | _deps/roaring-build/src/libroaring.a || _deps/roaring-build/src/libroaring.a
+  FLAGS = -O3 -DNDEBUG
+  LINK_LIBRARIES = _deps/roaring-build/src/libroaring.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test_filters.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test_filters.exe
+  TARGET_IMPLIB = libtest_filters.dll.a
+  TARGET_PDB = test_filters.exe.dbg
+
 
 #############################################
 # Utility command for package
@@ -3041,6 +3127,10 @@ build simple_test: phony _deps/cmocka-build/example/simple_test.exe
 
 build simple_test.exe: phony _deps/cmocka-build/example/simple_test.exe
 
+build test_attributes: phony test_attributes.exe
+
+build test_filters: phony test_filters.exe
+
 build test_roaring: phony test_roaring.exe
 
 build threads_unit: phony _deps/roaring-build/tests/threads_unit.exe
@@ -3063,7 +3153,7 @@ build util_unit.exe: phony _deps/roaring-build/tests/util_unit.exe
 #############################################
 # Folder: C:/Code/HNSW-Attribute-Filtering-Optimization/build
 
-build all: phony example_filter.exe bitset_filter.exe linear_filter.exe hnsw_optimization.exe test_roaring.exe roaring_filter.exe _deps/roaring-build/all
+build all: phony example_filter.exe bitset_filter.exe linear_filter.exe hnsw_optimization.exe test_roaring.exe roaring_filter.exe test_attributes.exe test_filters.exe _deps/roaring-build/all
 
 # =============================================================================
 
